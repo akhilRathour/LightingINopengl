@@ -145,6 +145,7 @@
     <ClCompile Include="lighting.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="movingLight.cpp" />
+    <ClCompile Include="multiLight.cpp" />
     <ClCompile Include="shaderclass.cpp" />
     <ClCompile Include="stb.cpp" />
     <ClCompile Include="textureClass.cpp" />
@@ -165,6 +166,8 @@
     <None Include="default.vert" />
     <None Include="light.frag" />
     <None Include="light.vert" />
+    <None Include="multiLight.frag" />
+    <None Include="multiLight.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="awesomeface.png" />

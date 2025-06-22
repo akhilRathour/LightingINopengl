@@ -66,6 +66,9 @@
     <ClCompile Include="movingLight.cpp">
       <Filter>Source Files\mains\main</Filter>
     </ClCompile>
+    <ClCompile Include="multiLight.cpp">
+      <Filter>Source Files\mains</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shaderClass.h">
@@ -101,6 +104,12 @@
       <Filter>Resource Files\shaders</Filter>
     </None>
     <None Include="light.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="multiLight.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="multiLight.frag">
       <Filter>Resource Files\shaders</Filter>
     </None>
   </ItemGroup>

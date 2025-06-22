@@ -7,6 +7,7 @@
 
 int main() {
     //lighted();
-	movinglight();
+	//movinglight();
+    multi_light();
     return 0;
 }

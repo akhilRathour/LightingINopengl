@@ -3,4 +3,5 @@
 
 void lighted();
 void movinglight();
+void multi_light();
 #endif
