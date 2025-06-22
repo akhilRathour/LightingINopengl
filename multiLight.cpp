@@ -249,4 +249,5 @@ void multi_light()
 	// Terminate GLFW before ending the program
 	glfwTerminate();
 	return;
+	//check check
 }
