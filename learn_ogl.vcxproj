@@ -146,7 +146,9 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="movingLight.cpp" />
     <ClCompile Include="multiLight.cpp" />
+    <ClCompile Include="TypeOFlight.cpp" />
     <ClCompile Include="shaderclass.cpp" />
+    <ClCompile Include="specMap.cpp" />
     <ClCompile Include="stb.cpp" />
     <ClCompile Include="textureClass.cpp" />
     <ClCompile Include="VAO.cpp" />
@@ -164,14 +166,18 @@
   <ItemGroup>
     <None Include="default.frag" />
     <None Include="default.vert" />
+    <None Include="diffLights.frag" />
     <None Include="light.frag" />
     <None Include="light.vert" />
     <None Include="multiLight.frag" />
     <None Include="multiLight.vert" />
+    <None Include="specMAP.frag" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="awesomeface.png" />
     <Image Include="C:\Users\akhil\Downloads\brick.png" />
+    <Image Include="planks.png" />
+    <Image Include="planksSpec.png" />
     <Image Include="TEX.jpeg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,4 +4,6 @@
 void lighted();
 void movinglight();
 void multi_light();
+void specMap();
+void diffLights();
 #endif

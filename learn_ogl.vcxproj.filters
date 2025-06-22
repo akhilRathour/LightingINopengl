@@ -63,10 +63,16 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files\mains\main</Filter>
     </ClCompile>
-    <ClCompile Include="movingLight.cpp">
-      <Filter>Source Files\mains\main</Filter>
-    </ClCompile>
     <ClCompile Include="multiLight.cpp">
+      <Filter>Source Files\mains</Filter>
+    </ClCompile>
+    <ClCompile Include="specMap.cpp">
+      <Filter>Source Files\mains</Filter>
+    </ClCompile>
+    <ClCompile Include="movingLight.cpp">
+      <Filter>Source Files\mains</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeOFlight.cpp">
       <Filter>Source Files\mains</Filter>
     </ClCompile>
   </ItemGroup>
@@ -112,6 +118,12 @@
     <None Include="multiLight.frag">
       <Filter>Resource Files\shaders</Filter>
     </None>
+    <None Include="specMAP.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="diffLights.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="TEX.jpeg">
@@ -121,6 +133,12 @@
       <Filter>Resource Files\Textures</Filter>
     </Image>
     <Image Include="C:\Users\akhil\Downloads\brick.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="planksSpec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="planks.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>

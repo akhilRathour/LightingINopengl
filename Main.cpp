@@ -8,6 +8,8 @@
 int main() {
     //lighted();
 	//movinglight();
-    multi_light();
+    //multi_light();
+    //specMap();
+    diffLights();
     return 0;
 }
